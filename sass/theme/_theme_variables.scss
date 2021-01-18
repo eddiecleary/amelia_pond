@@ -10,9 +10,19 @@ $food-muted: #E9AEA6;
 $primary-muted: #FEFBEE;
 $secondary-muted: #EBF2F7;
 
+// Breakpoints
+$xs: 0px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+//Navbar
+$navbar-light-color: $food;
+$navbar-light-hover-color: rgba($secondary, .7);
+$navbar-light-active-color: rgba($secondary);
+
 // Typography
 $headings-font-family: 'Varela Round', sans-serif;
 $font-family-base: 'Lora', serif;
 
-
-// Header
