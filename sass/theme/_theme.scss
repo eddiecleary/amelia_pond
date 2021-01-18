@@ -4,8 +4,25 @@
 }
 
 // Header
+#wrapper-navbar {
+    border-bottom: 3px solid $secondary;
+}
+
 .custom-logo-link {
     max-width: 200px;
+}
+
+@media (min-width: $md){
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+}
+@media (min-width: $lg){
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
 }
 
 .menu-item {
