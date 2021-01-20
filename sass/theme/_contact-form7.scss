@@ -40,10 +40,14 @@
     @extend .form-control;
   }
 
+  &-form-control {
+      margin-top: 5px;
+  }
+
   // submit button, inherit .btn and .btn-outline-primary classes.
   input[type=submit] {
     @extend .btn;
-    @extend .btn-outline-primary;
+    @extend .btn-outline-secondary;
   }
 
   .wpcf7-form {
@@ -69,5 +73,17 @@
     @extend .form-control;
     color: theme-color("danger");
     border: 1px solid $gray-200;
+    margin: 0;
   }
+}
+
+// Response message at bottom of form
+
+form.invalid .wpcf7-response-output,
+  .wpcf7 form.unaccepted .wpcf7-response-output {
+    margin: 0;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+    margin: 0;
 }

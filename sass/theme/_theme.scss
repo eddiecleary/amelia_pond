@@ -3,6 +3,11 @@
     width: 100%;
 }
 
+section:not(.hero),
+.footer {
+    margin-top: 100px;
+}
+
 // Header
 #wrapper-navbar {
     border-bottom: 3px solid $secondary;
@@ -27,4 +32,118 @@
 
 .menu-item {
     font-size: 22px;
+    color: $black;
+
+    a {
+        font-size: 22px;
+        color: $black;
+
+        &:hover {
+            text-decoration: none;
+            color: $secondary;
+        }
+
+        .fa {
+            font-size: 60px;
+        }
+    }
+}
+
+// Hero
+.hero {
+    padding: 4rem 0;
+
+    &__img {
+        width: 450px;
+        height: 500px;
+
+        img {
+            object-fit: cover;
+            height: 100%;
+        }
+    }
+
+    &__icon {
+        max-width: 50px;
+    }
+}
+
+// Home page styles
+#home {
+
+    .qualify {
+
+        &__lottie {
+            width: 150px;
+        }
+
+        &__circles-row {
+            margin-top: 40px;
+        }
+
+        &__circle-wrap {
+            position: relative;
+            height: 209px;
+        }
+
+        &__circle {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+
+            &--bg {
+                min-width: 209px;
+                height: 209px;
+            }
+
+            &--border {
+                width: 200px;
+                height: 200px;
+            }
+
+            &--img {
+                width: 180px;
+                height: 180px;
+            }
+        }
+    }
+
+    .testimonials {
+
+        &__item {
+            padding: 30px;
+            border-radius: 35px;
+            background-color: $primary-muted;
+            box-shadow: -3px 3px 15px rgba(0,0,0,0.1);
+
+            &:nth-of-type(2),
+            &:nth-of-type(3){
+                background-color: $secondary-muted;
+            }
+        }
+
+        &__footer {
+
+            &-icon {
+                flex: 1;
+
+                img {
+                    filter: brightness(0%);
+                }
+            }
+        }
+    }
+
+    .blog {
+        .card-img-top {
+            max-height: 158px;
+            overflow: hidden;
+        }
+    }
+}
+
+// Card component
+.card-foot {
+    flex: 1;
 }
