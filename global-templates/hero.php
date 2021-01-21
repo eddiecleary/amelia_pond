@@ -11,9 +11,9 @@ defined( 'ABSPATH' ) || exit;
 
 <section class="hero">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="hero__wrapper--left col-lg-6">
-                <div class="hero__img">
+        <div class="row align-items-center justify-content-center justify-content-lg-between">
+            <div class="hero__wrapper--left col-md-8 col-lg-6 col-xl-6">
+                <div class="hero__img mx-auto">
                     <?php
                         $image = get_field('image');
                         $size = 'large';
@@ -23,7 +23,7 @@ defined( 'ABSPATH' ) || exit;
                     ?>
                 </div>
             </div>
-            <div class="hero__wrapper--right col-lg-6 text-center">
+            <div class="hero__wrapper--right col-md-11 col-lg-6 text-center mt-5 mt-lg-0">
                 <div class="hero__icon mx-auto">
                     <?php
                         $icon = get_field('icon');
@@ -39,7 +39,7 @@ defined( 'ABSPATH' ) || exit;
                     <div class="underline"></div>
                 </div>
                 <h2 class="hero__subtitle"><?php the_field('subtitle')?></h2>
-                <p class="hero__p"><?php the_field('copy') ?></p>
+                <p class="hero__copy my-4"><?php the_field('copy') ?></p>
                 <div>
                     <?php $link = get_field('button');
                         if ($link) {

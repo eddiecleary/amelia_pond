@@ -13,12 +13,12 @@ $excerpt = substr($excerpt, 0, 150);
 $excerpt_result = substr($excerpt, 0, strrpos($excerpt, ' '));
 ?>
 
-<article <?php post_class('card col-md-12 col-lg-6 col-xl-5 p-0 mt-5'); ?> id="post-<?php the_ID(); ?>">
+<article <?php post_class('card col-11 col-sm-10 col-lg-5 col-xl-5 p-0 mt-5'); ?> id="post-<?php the_ID(); ?>">
 	<?php echo get_the_post_thumbnail( $post->ID, 'large', array('class' => 'card-img-top') ); ?>
     <div class="card-body d-flex flex-column">
         <?php
             the_title(
-                sprintf( '<h2 class="entry-title card-title h3"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
+                sprintf( '<h2 class="entry-title card-title h4"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
                 '</a></h2>'
             );
         ?>

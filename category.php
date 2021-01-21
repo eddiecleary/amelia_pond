@@ -30,7 +30,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				if ( have_posts() ) {
 					?>
 					<header class="page-header">
-						<h1 class="page-title">
+						<h1 class="page-title text-center text-md-left ml-md-2">
                             <?php
                             the_archive_title();
                             ?>
@@ -38,7 +38,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </h1>
 					</header><!-- .page-header -->
 
-                    <div class="row justify-content-lg-around">
+                    <div class="row justify-content-center justify-content-lg-around">
                         <?php
                         // Start the loop.
                         while ( have_posts() ) {

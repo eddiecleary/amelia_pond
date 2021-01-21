@@ -14,13 +14,13 @@ defined( 'ABSPATH' ) || exit;
 <footer class="footer">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-4">
+            <div class="col-10 col-md-6 col-lg-5 col-xl-4">
                 <h5 class="text-capitalize text-center">Subscribe to my free newsletter for updates!</h5>
                 <?php echo do_shortcode('[contact-form-7 id="115" title="Newsletter Form"]'); ?>
             </div>
         </div>
-        <div class="row align-items-center mt-4">
-            <div class="col-lg-4">
+        <div class="row flex-column flex-lg-row justify-content-center align-items-center mt-4">
+            <div class="col-lg-4 col-11 text-lg-left text-center">
             <!-- Your site title as branding in the menu -->
                 <?php if ( ! has_custom_logo() ) { ?>
 
@@ -45,7 +45,7 @@ defined( 'ABSPATH' ) || exit;
                 <?php
                     wp_nav_menu(
                         array(
-                            'container_class'   => 'col-lg-4',
+                            'container_class'   => 'col-11 col-sm-7 col-md-6 my-4 my-lg-0',
                             'menu_class'        => 'd-flex list-unstyled justify-content-between text-decoration-none mb-0',
                             'menu'           => '3',
                         )
@@ -56,7 +56,7 @@ defined( 'ABSPATH' ) || exit;
                 <?php
                     wp_nav_menu(
                         array(
-                            'container_class'   => 'col-lg-2 ml-auto',
+                            'container_class'   => 'col-7 col-sm-4 col-lg-2 ml-lg-auto',
                             'menu_class'        => 'd-flex list-unstyled justify-content-between text-decoration-none mb-0',
                             'menu'           => '2',
                         )
@@ -65,7 +65,7 @@ defined( 'ABSPATH' ) || exit;
             <!-- pages nav end -->
         </div>
         <div class="row justify-content-center mt-4">
-            <ul class="col-lg-4 d-flex justify-content-between list-unstyled">
+            <ul class="mt-2 mt-lg-0 col-11 col-sm-8 col-lg-4 d-flex justify-content-between list-unstyled">
                 <li class="menu-item">
                     <a href="https://www.facebook.com">
                         <i class="fa fa-facebook-square"></i>
