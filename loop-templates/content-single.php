@@ -13,7 +13,12 @@ defined( 'ABSPATH' ) || exit;
 
 	<header class="entry-header">
 
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+        <div class="w-100">
+	        <?php echo get_the_post_thumbnail( $post->ID, 'full' ); ?>
+        </div>
+
+
+		<?php the_title( '<h1 class="entry-title mt-3">', '</h1>' ); ?>
 
 		<div class="entry-meta">
 
@@ -22,10 +27,27 @@ defined( 'ABSPATH' ) || exit;
 		</div><!-- .entry-meta -->
 
 	</header><!-- .entry-header -->
+	<div class="entry-content mt-4">
 
-	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
-
-	<div class="entry-content">
+        <?php if (in_category('Food')) { ?>
+            <style>
+                blockquote {
+                    border-color: #D76B5C !important;
+                }
+            </style>
+        <?php } elseif (in_category('Lifestyle')) { ?>
+            <style>
+                blockquote {
+                    border-color: #5F9A51 !important;
+                }
+            </style>
+        <?php } else { ?>
+            <style>
+                blockquote {
+                    border-color: #3F82B1 !important;
+                }
+            </style>
+        <?php } ?>
 
 		<?php the_content(); ?>
 
@@ -40,7 +62,7 @@ defined( 'ABSPATH' ) || exit;
 
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
+	<footer class="entry-footer mt-4">
 
 		<?php understrap_entry_footer(); ?>
 

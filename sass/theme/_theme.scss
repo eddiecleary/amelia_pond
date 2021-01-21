@@ -18,6 +18,10 @@ section:not(.hero),
     }
 }
 
+.container {
+    outline: none;
+}
+
 // Keyframes
 @keyframes float {
     0% {
@@ -281,5 +285,15 @@ section:not(.hero),
     &-foot a {
         font-size: 14px;
         padding: 5px 10px;
+    }
+}
+
+// Blog post
+.entry-content {
+
+    blockquote {
+        margin-top: 10px;
+        border-left: 3px solid $secondary;
+        padding-left: 10px;
     }
 }

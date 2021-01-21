@@ -54,20 +54,20 @@ if ( ! function_exists( 'understrap_entry_footer' ) ) {
 	 */
 	function understrap_entry_footer() {
 		// Hide category and tag text for pages.
-		if ( 'post' === get_post_type() ) {
-			/* translators: used between list items, there is a space after the comma */
-			$categories_list = get_the_category_list( esc_html__( ', ', 'understrap' ) );
-			if ( $categories_list && understrap_categorized_blog() ) {
-				/* translators: %s: Categories of current post */
-				printf( '<span class="cat-links">' . esc_html__( 'Posted in %s', 'understrap' ) . '</span>', $categories_list ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-			}
-			/* translators: used between list items, there is a space after the comma */
-			$tags_list = get_the_tag_list( '', esc_html__( ', ', 'understrap' ) );
-			if ( $tags_list ) {
-				/* translators: %s: Tags of current post */
-				printf( '<span class="tags-links">' . esc_html__( 'Tagged %s', 'understrap' ) . '</span>', $tags_list ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-			}
-		}
+		// if ( 'post' === get_post_type() ) {
+		// 	/* translators: used between list items, there is a space after the comma */
+		// 	$categories_list = get_the_category_list( esc_html__( ', ', 'understrap' ) );
+		// 	if ( $categories_list && understrap_categorized_blog() ) {
+		// 		/* translators: %s: Categories of current post */
+		// 		printf( '<span class="cat-links">' . esc_html__( 'Posted in %s', 'understrap' ) . '</span>', $categories_list ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+		// 	}
+		// 	/* translators: used between list items, there is a space after the comma */
+		// 	$tags_list = get_the_tag_list( '', esc_html__( ', ', 'understrap' ) );
+		// 	if ( $tags_list ) {
+		// 		/* translators: %s: Tags of current post */
+		// 		printf( '<span class="tags-links">' . esc_html__( 'Tagged %s', 'understrap' ) . '</span>', $tags_list ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+		// 	}
+		// }
 		if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
 			echo '<span class="comments-link">';
 			comments_popup_link( esc_html__( 'Leave a comment', 'understrap' ), esc_html__( '1 Comment', 'understrap' ), esc_html__( '% Comments', 'understrap' ) );
