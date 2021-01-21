@@ -26,9 +26,12 @@ get_template_part( 'global-templates/hero' );
             <div class="row">
                 <div class="col-12 text-center">
                     <h2 class="qualify__title text-capitalize">Who should read this book?</h2>
-                    <div class="qualify__hgroup d-flex justify-content-center">
-                        <span class="qualify__lottie"><lottie-player src="https://assets8.lottiefiles.com/datafiles/WLZxDkEn1AQcp9K/data.json"  background="transparent"  speed="1"  style="width: 50; height: 50;"  loop autoplay></lottie-player></span>
-                        <h3 class="qualify__subtitle text-capitalize">All creatives</h3>
+                    <div class="qualify__hgroup d-flex justify-content-center align-items-center">
+                        <span class="qualify__lottie"><lottie-player src="https://assets8.lottiefiles.com/datafiles/WLZxDkEn1AQcp9K/data.json"  background="transparent"  speed="1"  style="width: 135px; height: 135px;"  loop autoplay></lottie-player></span>
+                        <div class="underline__wrap">
+                            <h3 class="qualify__subtitle text-capitalize">All creatives</h3>
+                            <div class="underline"></div>
+                        </div>
                     </div>
                     <p class="qualify__copy w-50 mx-auto">
                         Rediscover your imagination and ignite your creativity. <i>Think Outside The Box</i> helps creatives of all types break out of boring templates and start creating designs using their own creative imagination.
@@ -250,13 +253,18 @@ get_template_part( 'global-templates/hero' );
                 ?>
                     <div class="col-lg-4 mt-4">
                         <div class="card">
-                            <a href="<?php the_permalink(); ?>" class="card-img-top">
+                            <a href="<?php the_permalink(); ?>" class="card-img-top p-0">
                                 <?php the_post_thumbnail(array('640','290')); ?>
                             </a>
                             <div class="card-body">
-                                <h5 class="card-title"><?php the_title(); ?></h5>
+                                <?php
+                                    the_title(
+                                        sprintf( '<h5 class="entry-title card-title h3"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
+                                        '</a></h5>'
+                                    );
+                                ?>
                                 <p class="card-text"><?php echo $excerpt_result; ?></p>
-                                <div class="d-flex justify-content-between align-items-center">
+                                <div class="card-foot d-flex justify-content-between align-items-center">
                                     <a href="<?php the_permalink(); ?>" class="btn btn-secondary">Read more</a>
                                     <span class="small"><?php echo get_the_date(); ?></span>
                                 </div>

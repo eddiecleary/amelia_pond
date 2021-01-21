@@ -34,7 +34,10 @@ defined( 'ABSPATH' ) || exit;
                         }
                     ?>
                 </div>
-                <h1 class="hero__title"><?php the_field('title')?></h1>
+                <div class="underline__wrap">
+                    <h1 class="hero__title"><?php the_field('title')?></h1>
+                    <div class="underline"></div>
+                </div>
                 <h2 class="hero__subtitle"><?php the_field('subtitle')?></h2>
                 <p class="hero__p"><?php the_field('copy') ?></p>
                 <div>
