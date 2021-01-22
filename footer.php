@@ -68,22 +68,22 @@ defined( 'ABSPATH' ) || exit;
             <ul class="mt-2 mt-lg-0 col-11 col-sm-8 col-lg-4 d-flex justify-content-between list-unstyled">
                 <li class="menu-item">
                     <a href="https://www.facebook.com">
-                        <i class="fa fa-facebook-square"></i>
+                        <i class="icon-facebook-square"></i>
                     </a>
                 </li>
                 <li class="menu-item">
                     <a href="https://www.twitter.com">
-                        <i class="fa fa-twitter-square"></i>
+                        <i class="icon-twitter-square"></i>
                     </a>
                 </li>
                 <li class="menu-item">
                     <a href="https://www.instagram.com">
-                        <i class="fa fa-instagram"></i>
+                        <i class="icon-instagram"></i>
                     </a>
                 </li>
                 <li class="menu-item">
                     <a href="https://www.linkedin.com">
-                        <i class="fa fa-linkedin-square"></i>
+                        <i class="icon-linkedin-square"></i>
                     </a>
                 </li>
             </ul>
