@@ -63,10 +63,10 @@ get_template_part( 'global-templates/hero' );
                                     ?>
                                 </div>
                                 <div class="qualify__circle qualify__circle--border">
-                                    <?php echo wp_get_attachment_image('60', 'medium'); ?>
+                                    <?php echo wp_get_attachment_image('26', 'medium'); ?>
                                 </div>
                                 <div class="qualify__circle qualify__circle--img">
-                                    <?php echo wp_get_attachment_image('63', 'medium'); ?>
+                                    <?php echo wp_get_attachment_image('29', 'medium'); ?>
                                 </div>
                             </div>
                             <h3 class="qualify__item-title text-center mt-3">Developers</h3>
@@ -79,10 +79,10 @@ get_template_part( 'global-templates/hero' );
                                     ?>
                                 </div>
                                 <div class="qualify__circle qualify__circle--border">
-                                    <?php echo wp_get_attachment_image('61', 'medium'); ?>
+                                    <?php echo wp_get_attachment_image('27', 'medium'); ?>
                                 </div>
                                 <div class="qualify__circle qualify__circle--img">
-                                    <?php echo wp_get_attachment_image('64', 'medium'); ?>
+                                    <?php echo wp_get_attachment_image('30', 'medium'); ?>
                                 </div>
                             </div>
                             <h3 class="qualify__item-title text-center mt-3">Artists</h3>
@@ -109,14 +109,14 @@ get_template_part( 'global-templates/hero' );
                     </blockquote>
                     <div class="testimonials__footer d-flex justify-content-between mt-5 align-items-center">
                         <div class="testimonials__footer-icon">
-                            <?php echo wp_get_attachment_image('75', array('50','50')); ?>
+                            <?php echo wp_get_attachment_image('62', array('50','50')); ?>
                         </div>
                         <div class="testimonials__footer-text mr-3">
                             <p class="testimonials__footer-author font-weight-bold mb-0">Alexandra Shears</p>
                             <p class="testimonials__footer-job mb-0">Product Strategist</p>
                         </div>
                         <div class="testimonials__footer-profile-img">
-                            <?php echo wp_get_attachment_image('66', array('50','50')); ?>
+                            <?php echo wp_get_attachment_image('58', array('50','50')); ?>
                         </div>
                     </div>
                 </div>
@@ -126,14 +126,14 @@ get_template_part( 'global-templates/hero' );
                     </blockquote>
                     <div class="testimonials__footer d-flex justify-content-between align-items-center mt-5">
                         <div class="testimonials__footer-icon">
-                            <?php echo wp_get_attachment_image('75', array('50','50')); ?>
+                            <?php echo wp_get_attachment_image('62', array('50','50')); ?>
                         </div>
                         <div class="testimonials__footer-text mr-3">
                             <p class="testimonials__footer-author font-weight-bold mb-0">Timothy Marks</p>
                             <p class="testimonials__footer-job mb-0">JS Developer</p>
                         </div>
                         <div class="testimonials__footer-profile-img">
-                            <?php echo wp_get_attachment_image('67', array('50','50')); ?>
+                            <?php echo wp_get_attachment_image('59', array('50','50')); ?>
                         </div>
                     </div>
                 </div>
@@ -143,14 +143,14 @@ get_template_part( 'global-templates/hero' );
                     </blockquote>
                     <div class="testimonials__footer d-flex justify-content-between align-items-center mt-5">
                         <div class="testimonials__footer-icon">
-                            <?php echo wp_get_attachment_image('75', array('50','50')); ?>
+                            <?php echo wp_get_attachment_image('62', array('50','50')); ?>
                         </div>
                         <div class="testimonials__footer-text mr-3">
                             <p class="testimonials__footer-author font-weight-bold mb-0">Ben Rockwell</p>
                             <p class="testimonials__footer-job mb-0">Solutions Architect</p>
                         </div>
                         <div class="testimonials__footer-profile-img">
-                            <?php echo wp_get_attachment_image('68', array('50','50')); ?>
+                            <?php echo wp_get_attachment_image('60', array('50','50')); ?>
                         </div>
                     </div>
                 </div>
@@ -160,14 +160,14 @@ get_template_part( 'global-templates/hero' );
                     </blockquote>
                     <div class="testimonials__footer d-flex justify-content-between align-items-center mt-5">
                         <div class="testimonials__footer-icon">
-                            <?php echo wp_get_attachment_image('75', array('50','50')); ?>
+                            <?php echo wp_get_attachment_image('62', array('50','50')); ?>
                         </div>
                         <div class="testimonials__footer-text mr-3">
                             <p class="testimonials__footer-author font-weight-bold mb-0">Michael Peters</p>
                             <p class="testimonials__footer-job mb-0">Photographer</p>
                         </div>
                         <div class="testimonials__footer-profile-img">
-                            <?php echo wp_get_attachment_image('69', array('50','50')); ?>
+                            <?php echo wp_get_attachment_image('61', array('50','50')); ?>
                         </div>
                     </div>
                 </div>
@@ -180,10 +180,10 @@ get_template_part( 'global-templates/hero' );
         <div class="container">
             <div class="cta__img-wrap row justify-content-center align-items-center">
                 <div class="cta__img col-7 col-md-5">
-                    <?php echo wp_get_attachment_image('76', 'medium'); ?>
+                    <?php echo wp_get_attachment_image('32', 'medium'); ?>
                 </div>
                 <div class="cta__img col-4 col-md-3">
-                    <?php echo wp_get_attachment_image('77', 'medium'); ?>
+                    <?php echo wp_get_attachment_image('33', 'medium'); ?>
                 </div>
             </div>
             <div class="row mt-5">
@@ -202,7 +202,7 @@ get_template_part( 'global-templates/hero' );
                     <h2 class="about__title text-center text-sm-left h1">Hello!
                         <span class="about__icon">
                             <?php
-                                echo wp_get_attachment_image('78', array('50','50'), true);
+                                echo wp_get_attachment_image('63', array('50','50'), true);
                             ?>
                         </span>
                     </h2>
@@ -211,7 +211,7 @@ get_template_part( 'global-templates/hero' );
                 </div>
                 <div class="col-6 mt-4 mt-sm-0 col-md-5 col-lg-3">
                     <?php
-                        echo wp_get_attachment_image('79', 'medium');
+                        echo wp_get_attachment_image('20', 'medium');
                     ?>
                 </div>
             </div>
@@ -232,7 +232,7 @@ get_template_part( 'global-templates/hero' );
         <div class="container">
             <div class="blog__arrow text-center">
                 <?php
-                    echo wp_get_attachment_image('80', 'medium');
+                    echo wp_get_attachment_image('21', 'medium');
                 ?>
             </div>
             <div class="row align-items-stretch">
