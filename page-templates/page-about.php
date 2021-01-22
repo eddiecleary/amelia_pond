@@ -25,7 +25,7 @@ get_template_part( 'global-templates/hero' );
                     <p class="mt-4">Cronut fingerstache readymade synth, kinfolk copper mug heirloom paleo biodiesel hella mustache. Pitchfork mumblecore roof party twee, bitters fashion axe YOLO photo booth fanny pack cred selfies. Yuccie ennui narwhal swag leggings try-hard. Lumbersexual cred chia etsy neutra normcore. Literally deep v 3 wolf moon, poke polaroid yuccie ennui actually enamel pin cold-pressed.</p>
                     <div class="intro__img mt-lg-4 mt-5 col-md-10 mx-auto">
                         <?php
-                            echo wp_get_attachment_image('121', 'large');
+                            echo wp_get_attachment_image('40', 'large');
                         ?>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ get_template_part( 'global-templates/hero' );
                     </p>
                     <div class="achievements__img mt-4">
                         <?php
-                            echo wp_get_attachment_image('122', 'medium');
+                            echo wp_get_attachment_image('22', 'medium');
                         ?>
                     </div>
                 </div>
@@ -59,7 +59,7 @@ get_template_part( 'global-templates/hero' );
                     </p>
                     <div class="thankyou__img mt-4">
                          <?php
-                            echo wp_get_attachment_image('84', 'large');
+                            echo wp_get_attachment_image('38', 'large');
                         ?>
                     </div>
                 </div>
