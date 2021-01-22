@@ -43,14 +43,14 @@ get_template_part( 'global-templates/hero' );
                             <div class="qualify__circle-wrap d-flex justify-content-center align-items-center">
                                 <div class="qualify__circle qualify__circle--bg">
                                     <?php
-                                        echo wp_get_attachment_image('58', 'medium');
+                                        echo wp_get_attachment_image('24', 'medium');
                                     ?>
                                 </div>
                                 <div class="qualify__circle qualify__circle--border">
-                                    <?php echo wp_get_attachment_image('59', 'medium'); ?>
+                                    <?php echo wp_get_attachment_image('25', 'medium'); ?>
                                 </div>
                                 <div class="qualify__circle qualify__circle--img">
-                                    <?php echo wp_get_attachment_image('62', 'medium'); ?>
+                                    <?php echo wp_get_attachment_image('28', 'medium'); ?>
                                 </div>
                             </div>
                             <h3 class="qualify__item-title text-center mt-3">Designers</h3>
@@ -59,7 +59,7 @@ get_template_part( 'global-templates/hero' );
                             <div class="qualify__circle-wrap d-flex justify-content-center align-items-center">
                                 <div class="qualify__circle qualify__circle--bg">
                                     <?php
-                                        echo wp_get_attachment_image('58', 'medium');
+                                        echo wp_get_attachment_image('24', 'medium');
                                     ?>
                                 </div>
                                 <div class="qualify__circle qualify__circle--border">
@@ -75,7 +75,7 @@ get_template_part( 'global-templates/hero' );
                             <div class="qualify__circle-wrap d-flex justify-content-center align-items-center">
                                 <div class="qualify__circle qualify__circle--bg">
                                     <?php
-                                        echo wp_get_attachment_image('58', 'medium');
+                                        echo wp_get_attachment_image('24', 'medium');
                                     ?>
                                 </div>
                                 <div class="qualify__circle qualify__circle--border">
