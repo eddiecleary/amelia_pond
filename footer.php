@@ -45,7 +45,7 @@ defined( 'ABSPATH' ) || exit;
                 <?php
                     wp_nav_menu(
                         array(
-                            'container_class'   => 'col-11 col-sm-7 col-md-6 my-4 my-lg-0',
+                            'container_class'   => 'col-11 col-sm-7 col-md-6 col-lg-4 my-4 my-lg-0',
                             'menu_class'        => 'd-flex list-unstyled justify-content-between text-decoration-none mb-0',
                             'menu'           => '3',
                         )
