@@ -34,7 +34,7 @@ get_template_part( 'global-templates/hero' );
                         </div>
                     </div>
                     <p class="qualify__copy col-md-10 col-lg-8 col-xl-7 mx-auto">
-                        Rediscover your imagination and ignite your creativity. <i>Think Outside The Box</i> helps creatives of all types break out of boring templates and start creating designs using their own creative imagination.
+                        Rediscover your imagination and ignite your creativity. <em>Think Outside The Box</em> helps creatives of all types break out of boring templates and start creating designs using their own creative imagination.
                     </p>
                 </div>
                 <div class="col-12">
