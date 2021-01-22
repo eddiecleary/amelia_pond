@@ -84,6 +84,10 @@ section:not(.hero),
 
 .custom-logo-link {
     max-width: 200px;
+
+    img {
+        max-width: 200px;
+    }
 }
 
 @media (min-width: $md){
