@@ -109,7 +109,7 @@ get_template_part( 'global-templates/hero' );
                     </blockquote>
                     <div class="testimonials__footer d-flex justify-content-between mt-5 align-items-center">
                         <div class="testimonials__footer-icon">
-                            <?php echo wp_get_attachment_image('62', array('50','50')); ?>
+                            <?php echo wp_get_attachment_image('23', array('50','50')); ?>
                         </div>
                         <div class="testimonials__footer-text mr-3">
                             <p class="testimonials__footer-author font-weight-bold mb-0">Alexandra Shears</p>
@@ -126,7 +126,7 @@ get_template_part( 'global-templates/hero' );
                     </blockquote>
                     <div class="testimonials__footer d-flex justify-content-between align-items-center mt-5">
                         <div class="testimonials__footer-icon">
-                            <?php echo wp_get_attachment_image('62', array('50','50')); ?>
+                            <?php echo wp_get_attachment_image('23', array('50','50')); ?>
                         </div>
                         <div class="testimonials__footer-text mr-3">
                             <p class="testimonials__footer-author font-weight-bold mb-0">Timothy Marks</p>
@@ -143,7 +143,7 @@ get_template_part( 'global-templates/hero' );
                     </blockquote>
                     <div class="testimonials__footer d-flex justify-content-between align-items-center mt-5">
                         <div class="testimonials__footer-icon">
-                            <?php echo wp_get_attachment_image('62', array('50','50')); ?>
+                            <?php echo wp_get_attachment_image('23', array('50','50')); ?>
                         </div>
                         <div class="testimonials__footer-text mr-3">
                             <p class="testimonials__footer-author font-weight-bold mb-0">Ben Rockwell</p>
@@ -160,7 +160,7 @@ get_template_part( 'global-templates/hero' );
                     </blockquote>
                     <div class="testimonials__footer d-flex justify-content-between align-items-center mt-5">
                         <div class="testimonials__footer-icon">
-                            <?php echo wp_get_attachment_image('62', array('50','50')); ?>
+                            <?php echo wp_get_attachment_image('23', array('50','50')); ?>
                         </div>
                         <div class="testimonials__footer-text mr-3">
                             <p class="testimonials__footer-author font-weight-bold mb-0">Michael Peters</p>
