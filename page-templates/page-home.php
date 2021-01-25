@@ -188,7 +188,7 @@ get_template_part( 'global-templates/hero' );
             </div>
             <div class="row mt-5">
                 <div class="col text-center">
-                    <a href="https://www.amazon.com/" class="btn btn-primary">Buy Now</a>
+                    <a href="https://www.amazon.com/" target="_blank" class="btn btn-primary">Buy Now</a>
                 </div>
             </div>
         </div>
@@ -220,8 +220,8 @@ get_template_part( 'global-templates/hero' );
             </p>
             <div class="row justify-content-center mt-5">
                 <div class="col-lg-4 about__btn-wrap d-flex justify-content-center">
-                    <a href="#" class="btn btn-secondary text-capitalize mr-5">About me</a>
-                    <a href="#" class="btn btn-secondary text-capitalize">Contact</a>
+                    <a href="<?php echo get_permalink('42'); ?>" class="btn btn-secondary text-capitalize mr-5">About me</a>
+                    <a href="<?php echo get_permalink('44'); ?>" class="btn btn-secondary text-capitalize">Contact</a>
                 </div>
             </div>
         </div>
